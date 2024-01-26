@@ -1,6 +1,9 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import logo from '../Assets/logo.png'
+import redcar from '../Assets/redcar.jpg'
+import car_red from '../Assets/car_red.png'
 
 const Home = () => {
   return (
@@ -8,7 +11,7 @@ const Home = () => {
       <Navbar />
 
       <div className="z-0 relative -top-24 left-16">
-        <img src="/redcar.jpg" alt="" className="w-full" />
+        <img src={redcar} alt="" className="w-full" />
       </div>
 
       <div className="bg-red-900 relative -top-136 -mt-80 z-30 w-14 h-144"></div>
@@ -27,7 +30,7 @@ const Home = () => {
         <div className="flex flex-col justify-center mt-80">
           <h2 className="text-center text-4xl "> Product Categories</h2>
           <div className="flex flex-row justify-center mt-9">
-            <img src="/logo.png" alt="" className="w-4/12" />
+            <img src={logo} alt="" className="w-4/12" />
             <div className="bg-red-900 rounded-md w-2 h-36 mx-9"></div>
             <p className="w-4/12 pt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maxime alias quasi, suscipit eius quos
@@ -40,7 +43,7 @@ const Home = () => {
             <span className="text-7xl ml-20">‹</span>
             <span className="text-7xl mr-40 ">›</span>
           </div>
-          <img src="/redcar.png" alt="" className="scale-50 z-10 relative right-4 -top-36" />
+          <img src={car_red} alt="" className="scale-50 z-10 relative right-4 -top-36" />
         </div>
 
         <div className="-mt-20">
@@ -81,7 +84,7 @@ const Home = () => {
                     dolorum ex magnam!
                   </p>
 
-                  <img src="/redcar.png" alt="" className="w-80 z-10 relative left-20" />
+                  <img src={car_red}  alt="" className="w-80 z-10 relative left-20" />
                 </div>
               </div>
             </div>
@@ -93,7 +96,7 @@ const Home = () => {
 
           <div className="flex flex-row justify-center relative">
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur </p>
@@ -101,7 +104,7 @@ const Home = () => {
             </div>
 
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur</p>
@@ -109,7 +112,7 @@ const Home = () => {
             </div>
 
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur</p>
@@ -119,7 +122,7 @@ const Home = () => {
 
           <div className="flex flex-row justify-center relative ">
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur</p>
@@ -127,7 +130,7 @@ const Home = () => {
             </div>
 
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur</p>
@@ -135,7 +138,7 @@ const Home = () => {
             </div>
 
             <div className="bg-rose-950 p-5 m-4 w-1/5 h-1/3">
-              <img src="/redcar.png" alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
+              <img src={car_red}  alt="imageSix" className="w-4/5 mt-3 mb-4 pl-2" />
               <div className="texts">
                 <h5 className="font-bold text-lg pl-2">Range Rover Velar</h5>
                 <p className="text-sm pl-2">Lorem Ipsum Consectetur</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../Assets/logo.png'
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
     
     <nav class="flex justify-between mx-32 ml-48 z-50 relative top-20">        
         <div class="flex justify-center w-1/12" id="logo">
-            <img src="/logo.png" alt="" class=""/>
+            <img src={logo} alt="" class=""/>
             <p class="bg">KUDIMOTA</p>
         </div>
         
